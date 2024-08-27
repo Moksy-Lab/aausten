@@ -1,0 +1,23 @@
+# robots.txt for aausten
+
+User-agent: *
+Disallow: /private/
+Disallow: /temp/
+Disallow: /cgi-bin/
+
+# Sitemap location
+Sitemap: https://moksy.com/templates/aausten//sitemap.xml
+
+# Host
+Host: https://moksy.com/templates/aausten/
+
+# Support Contact
+Contact: support@moksy.com
+
+# Additional information
+# Site Name: aausten
+# Site Description: 
+# Site Version: 1.0.0
+# Year: 2024
+
+# All rights reserved 2024 by Aausten

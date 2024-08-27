@@ -1,0 +1,417 @@
+/*****rootCSSRules*****/
+    :root {
+--brand-color: #ff914f;
+--light-brand-color: #ff914f;
+--text-color: #7C7C7C;
+--light-text-color: #FF5733;
+--alert-color: #900C3F;
+--success-color: #FFC300;
+--warning-color: #f5f5f5;
+--error-color: #ff914f;
+--black-color: #900C3F;
+--main-background-color: #343434;
+--light-background-color: #343434;
+--default-font: Open Sans;
+--primary-font: Verdana;
+--secondary-font: ;
+--thirdprimary-font: Comic Sans MS;
+}
+/*****rootCSSRules*****/
+
+/*****TypographyCSS*****/
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+html {
+    font-family: sans-serif;
+    line-height: 1.15;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    -ms-overflow-style: scrollbar;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    scroll-behavior: smooth;
+}
+
+@-ms-viewport {
+    width: device-width;
+}
+
+
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+a {
+    text-decoration: none;
+    background-color: transparent;
+    -webkit-text-decoration-skip: objects;
+    color: #353935;
+}
+
+/* no margin for header and footer section */
+section.footer,
+section.header {
+    margin: 0;
+}
+
+/* 20px top and bottom margin for all sections */
+section {
+    margin: 20px 0;
+    display: block;
+    width: 100%;
+}
+
+input,
+button,
+select,
+optgroup,
+textarea {
+    margin: 0;
+    font-family: inherit;
+}
+
+textarea {
+    overflow: auto;
+    resize: vertical;
+}
+
+h1,
+.h1 {
+    font-size: 2.75rem;
+}
+
+h2,
+.h2 {
+    font-size: 2rem;
+}
+
+h3,
+.h3 {
+    font-size: 1.125rem;
+}
+
+h4,
+.h4 {
+    font-size: 1rem;
+}
+
+h5,
+.h5 {
+    font-size: 0.875rem;
+}
+
+h6,
+.h6 {
+    font-size: 0.813rem;
+}
+
+.lead {
+    font-size: 1.4rem;
+    font-weight: 400;
+}
+
+.display-1 {
+    font-size: 6rem;
+    font-weight: 300;
+    line-height: 1.2;
+}
+
+.display-2 {
+    font-size: 5.5rem;
+    font-weight: 300;
+    line-height: 1.2;
+}
+
+.display-3 {
+    font-size: 4.5rem;
+    font-weight: 300;
+    line-height: 1.2;
+}
+
+.display-4 {
+    font-size: 3.5rem;
+    font-weight: 300;
+    line-height: 1.2;
+}
+
+hr {
+    border: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+/*****TypographyCSS*****/
+
+/*****hasis*****/
+/* #hasis(hasisHeader) #css starts  */
+.hasisHeader .logo {
+    max-height: 50px
+}
+
+.hasisHeader .navbar-open-icon {
+    display: inline
+}
+
+.hasisHeader .navbar-close-icon {
+    display: none
+}
+
+.hasisHeader .navbar-toggler[aria-expanded="true"] .navbar-open-icon {
+    display: none
+}
+
+.hasisHeader .navbar-toggler[aria-expanded="true"] .navbar-close-icon {
+    display: inline
+}
+
+.hasisHeader .navbar-light .navbar-toggler {
+    color: #353935;
+    border-color: #353935;
+    font-size: 25px;
+}
+
+.hasisHeader .btn {
+    background-color: #353935;
+    color: white;
+    border: none;
+    font-weight: bold
+}
+
+.hasisHeader .btn:hover {
+    color: white;
+    text-decoration: none;
+}
+
+/* #hasis(hasisHeader) #css ends  */
+/*****hasis*****/
+
+/*****ful*****/
+    /* #ful(fulFeature) #css starts */
+    .fulFeature .fdb-block {
+        padding: 7.5rem 0
+    }
+
+    .fulFeature .fdb-block img.fdb-icon {
+        width: auto;
+        width: 3.75rem
+    }
+
+    /* #ful(fulFeature) #css starts */
+    /*****ful*****/
+
+/*****tamia*****/
+    /* #tamia(tamiaTestimonial) #css starts  */
+    .tamiaTestimonial .fdb-block {
+        padding: 3rem 0;
+        position: relative;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        overflow: hidden;
+        background-color: #FFFFFF;
+        background-image: url(https://images.moksy.com/templates/default/shapes/shape-red.svg)
+    }
+
+    .tamiaTestimonial .fdb-block .fdb-box {
+        background: #FFFFFF;
+        padding: 3.75rem 2.5rem;
+        overflow: hidden;
+        color: #353935;
+        border-radius: 0.25rem;
+        box-shadow: 0 0.3125rem 0.875rem 0 rgba(129, 129, 129, 0.2)
+    }
+
+    .tamiaTestimonial .lead {
+        font-weight: 500;
+    }
+
+    /* #tamia(tamiaTestimonial) #css ends  */
+    /*****tamia*****/
+
+/*****bartholomew*****/
+    /* #bartholomew(bartholomewBlog) #css starts  */
+    .bartholomewBlog .blog-home3 {
+        color: #8d97ad;
+        font-weight: 300
+    }
+
+    .bartholomewBlog .blog-home3 h3,
+    .bartholomewBlog .blog-home3 h5,
+    .bartholomewBlog .blog-home3 h6 {
+        color: #3e4555
+    }
+
+    .bartholomewBlog .blog-home3 h5 {
+        line-height: 22px;
+        font-size: 18px
+    }
+
+    .bartholomewBlog .blog-home3 a.link {
+        margin-left: 10px;
+        display: inline-block;
+        color: #3e4555
+    }
+
+    .bartholomewBlog .blog-home3 a.link:hover {
+        color: #316ce8
+    }
+
+    .bartholomewBlog .blog-home3 .font-weight-medium {
+        font-weight: 500
+    }
+
+    .bartholomewBlog .blog-home3 .bg-light {
+        background-color: #f4f8fa
+    }
+
+    .bartholomewBlog .blog-home3 .subtitle {
+        color: #8d97ad;
+        line-height: 24px
+    }
+
+    .bartholomewBlog .blog-home3 .card.card-shadow {
+        -webkit-box-shadow: 0px 0px 30px rgba(115, 128, 157, 0.1);
+        box-shadow: 0px 0px 30px rgba(115, 128, 157, 0.1)
+    }
+
+    .bartholomewBlog .blog-home3 .on-hover {
+        -webkit-transition: 0.2s ease-in;
+        -o-transition: 0.2s ease-in;
+        transition: 0.2s ease-in
+    }
+
+    .bartholomewBlog .blog-home3 .on-hover:hover {
+        -webkit-transform: translateY(-10px);
+        -ms-transform: translateY(-10px);
+        transform: translateY(-10px)
+    }
+
+    .bartholomewBlog .blog-home3 .bg-success-gradient {
+        background-image: linear-gradient(45deg, #85FFBD 0%, #FFFB7D 100%);
+    }
+
+    .bartholomewBlog .blog-home3 .date-pos {
+        font-size: 14px;
+        font-weight: bold;
+        color: #353935;
+    }
+
+    .bartholomewBlog .blog-home3 a {
+        overflow: hidden
+    }
+
+    .bartholomewBlog .blog-home3 a img {
+        -webkit-transition: 0.2s ease-in;
+        -o-transition: 0.2s ease-in;
+        transition: 0.2s ease-in
+    }
+
+    .bartholomewBlog .blog-home3 a img:hover {
+        -webkit-transform: scale(1.05);
+        -ms-transform: scale(1.05);
+        transform: scale(1.05)
+    }
+
+    .bartholomewBlog .blog-image {
+        height: 223px;
+    }
+
+    /* #bartholomew(bartholomewBlog) #css ends  */
+    /*****bartholomew*****/
+
+/*****crawler*****/
+    /* #crawler(crawlerCTA) #css starts  */
+    .crawlerCTA .btn {
+        color: #fff;
+        border-color: #353935;
+        background-color: #353935;
+    }
+    .crawlerCTA .image {
+        margin-top: -60px;
+    }
+    /* #crawler(crawlerCTA) #css ends  */
+    /*****crawler*****/
+
+/*****falcon*****/
+    /* #falcon(falconFAQ) #css starts */
+    .falconFAQ .accordion .card .card-header {
+        border: 0;
+        border-radius: 2px;
+        -webkit-border-radius: 2px;
+        -moz-border-radius: 2px;
+        padding: 0;
+        background-color: rgba(0, 0, 0, .1)
+    }
+
+    .falconFAQ .accordion .card .card-header .btn-header-link {
+        color: #fff;
+        display: block;
+        text-align: left;
+        color: #343434;
+        padding: 15px;
+        font-weight: 500
+    }
+
+    .falconFAQ .accordion .card .card-header .btn-header-link:after {
+        content: "\f077";
+        font-family: 'Font Awesome 5 Free';
+        font-weight: 900;
+        float: right
+    }
+
+    .falconFAQ .accordion .card .card-header .btn-header-link.collapsed:after {
+        content: "\f078"
+    }
+
+    .falconFAQ .accordion .card .collapsing {
+        line-height: 30px
+    }
+
+    .falconFAQ .accordion .card .collapse {
+        border: 0
+    }
+
+    .falconFAQ .accordion .card .collapse.show {
+        line-height: 30px;
+        color: #343434
+    }
+
+    .falconFAQ .accordion .btn.focus,
+    .falconFAQ .accordion .btn:focus {
+        outline: 0;
+        -webkit-box-shadow: none !important;
+        -moz-box-shadow: none !important;
+        box-shadow: none !important
+    }
+
+    .falconFAQ .accordion .card-body {
+        border-bottom: 1px solid #ddd
+    }
+
+    .falconFAQ .accordion>.card:not(:last-of-type) .card-body {
+        border-bottom: 1px solid #ddd
+    }
+
+    .falconFAQ .accordion>.card {
+        margin-bottom: 15px
+    }
+
+    .falconFAQ .head-three-custom-cls {
+        font-size: 35px;
+    }
+
+    /* #falcon(falconFAQ) #css ends */
+    /*****falcon*****/
+
+/*****fond*****/
+/* #fond(fondFooter) #css starts */
+.fondFooter img {
+    max-height: 60px
+}
+
+/* #fond(fondFooter) #css ends */
+/*****fond*****/
+
